@@ -16,7 +16,7 @@ public class Strings {
         System.out.println("name2 and name3: " + name2.equals(name3));
 
         //compareTo
-        System.out.printLn("Compare: " + name1.compareTo(name2));
+        System.out.println("Compare: " + name1.compareTo(name2));
 
         // helpful built in methods
         System.out.println(" # of characters in string: " + name1.length());
