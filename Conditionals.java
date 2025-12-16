@@ -78,14 +78,37 @@ public class Conditionals {
         }
 
         System.out.print("Enter your number ");
-        int usernum = input.nextLine();
-
+        String usernum = input.nextLine();
+        int usernumconverted =  Integer.parseInt(usernum);
         
 
-        if (usernum % 2 != 1) {
+        if (usernumconverted % 2 != 1) {
             System.out.println("Even ");
         } else {
             System.out.println(" Odd ");
+        }
+
+
+        System.out.print("Enter your grade number ");
+        String usergradenum = input.nextLine();
+        int usergradenumconverted =  Integer.parseInt(usergradenum);
+        int A = 90;
+        int B = 80;
+        int C = 70;
+        int D = 60;
+        int F = 50;
+        if (usergradenumconverted >= 90) {
+            System.out.println("A");
+        }
+        if (usergradenumconverted >= 80 || != 90)
+                    {
+            System.out.println("B");
+        }
+        if (usergradenumconverted >= 70) {
+            System.out.println("A");
+        }
+        if (usergradenumconverted >= 90) {
+            System.out.println("A")
         }
 
         
